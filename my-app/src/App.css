@@ -78,7 +78,7 @@
   
 }
 .herodetails .container>div:first-child img{
-  width: 250px;
+  width: 249px;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
 }
