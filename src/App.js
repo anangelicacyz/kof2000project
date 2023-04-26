@@ -11,7 +11,7 @@ function App() {
     <Navbar />
     <BrowserRouter>
       <Routes>
-          <Route  path='/kof' element={<Menu/>} />
+          <Route  path='/' element={<Menu/>} />
           <Route exact path='/kof/:heroName' Component={HeroDetails} />
       </Routes>
       </BrowserRouter>
