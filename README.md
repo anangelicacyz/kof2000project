@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This repository contains a simple and classic Tic Tac Toe game created with React. The repository includes all the necessary code files, including the React components, the game logic, and the styling. The game allows two players to play against each other on a 3x3 grid, and it displays the winner or a draw at the end of each game. The user interface is user-friendly, and the game is easy to play even for beginners. The repository also includes a README file with instructions on how to run and use the application. This project is an excellent example for those who want to learn how to create simple games using React.
+This repository contains a gallery of heroes from the famous fighting game "The King of Fighters 2000". The repository includes images and details of all the heroes available in the game. By clicking on a hero's image, the user can view the hero's general data, including name, nationality, and fighting style. Moreover, the repository includes a detailed list of all the hero's movements, including special moves, combos, and finishing moves. 
 
 ## Available Scripts
 
