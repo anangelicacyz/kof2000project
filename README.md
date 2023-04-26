@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# "The King of Fighters 2000 Gallery" with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains a gallery of heroes from the famous fighting game "The King of Fighters 2000". The repository includes images and details of all the heroes available in the game. By clicking on a hero's image, the user can view the hero's general data, including name, nationality, and fighting style. Moreover, the repository includes a detailed list of all the hero's movements, including special moves, combos, and finishing moves. 
 
 ## Available Scripts
 
