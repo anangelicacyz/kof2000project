@@ -2,8 +2,11 @@
 
 This repository contains a gallery of heroes from the famous fighting game "The King of Fighters 2000". The repository includes images and details of all the heroes available in the game. By clicking on a hero's image, the user can view the hero's general data, including name, nationality, and fighting style. Moreover, the repository includes a detailed list of all the hero's movements, including special moves, combos, and finishing moves. 
 
-#Interfaces images
-![Primer interfaz](/public/paginainiciotictactoe.png){width: 200px}
+#Interface images
+Hero gallery
+![Galeria](/public/gallerykof.png)
+Hero details
+![Hero details](/public/herodetailskof.png)
 
 ## Available Scripts
 

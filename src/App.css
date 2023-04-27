@@ -5,18 +5,18 @@
 }
 .container{
   background: linear-gradient(0grad, rgb(128, 123, 123) 0%, gray 40%, black 100%);
-  padding: 50px;
+  padding: 1px 30px ;
   height:max-content; 
 
 }
 .menu-gallery{
   background: black;
-  padding: 30px;
-  margin: 30px;
+  padding: 0px 30px 30px;
+  margin: 10px 30px;
   display: flex;
   flex-flow: row wrap;
-  gap: 35px;
-  row-gap: 20px;
+  gap: 30px;
+  row-gap: 10px;
   align-items: center;
   justify-content: center;
   
@@ -25,6 +25,7 @@
 .menu-gallery img{
    border-radius: 5px;
    width: 150px;
+   
 }
 .menu-gallery .imgbox{
   text-align: center;
@@ -41,6 +42,7 @@
 .menu-gallery img:hover{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+  box-shadow: -8px -8px 10px rgb(224, 15, 15);
 }
 .menu-gallery img:hover ~ p{
   opacity: 1;
@@ -50,13 +52,14 @@
   text-align: center;
 }
 .navbar>img{
-  width: 400px;
+  width: 320px;
 }
 .herodetails .container{
+  
   background: linear-gradient(0grad, rgb(128, 123, 123) 0%, gray 40%, black 100%);
-  padding: 50px;
+  padding: 25px 50px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.7fr 1fr;
 
 }
 .herodetails .heroName{
@@ -90,9 +93,10 @@
   border-top-right-radius: 30px;
 }
 .herodetails .container .heroDescription{
+  margin-top: 20px;
   border-bottom: 4px solid rgb(37, 37, 37);
   padding: 10px;
-  width: 50%;
+  width: 80%;
   font-size: larger;
   color: rgb(212, 212, 212);
 
@@ -104,16 +108,16 @@
   padding: 10px;
 }
 .heroMoves{
-  font-size: medium;
+  font-size: 15px;
   padding: 20px;
-  margin-bottom: 60px;
-  margin-top: 20px;
-  width: 60%;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  width: 70%;
   color: rgb(212, 212, 212);
 
 }
 .heroMoves thead th{
-  font-size: 22px;
+  font-size: 20px;
   font-weight:800;
   border-bottom: 2px solid rgb(37, 36, 36);
   padding-bottom: 15px;
@@ -121,12 +125,13 @@
   
 }
 .heroMoves .subtitleMovesTable  td{
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   padding: 8px;
   border-bottom: 1px solid rgb(37, 37, 37);
+
 }
 .heroMoves td{
-  padding: 10px;
+  padding: 2px;
 }
 

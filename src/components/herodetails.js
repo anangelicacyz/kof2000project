@@ -18,8 +18,6 @@ const imageUrl= './../'+ hero.image
                 <p className='heroName'>{hero.name}</p>
                     <img src= {imageUrl}/>
                     
-                </div>
-                <div>
                     <table className='heroDescription'>
                         <tr>
                             <td>Team: </td>
@@ -44,6 +42,8 @@ const imageUrl= './../'+ hero.image
                         </tr>
                     
                     </table>
+                </div>
+                <div>
                     <table className='heroMoves'>
                         <thead>
                             <th>
